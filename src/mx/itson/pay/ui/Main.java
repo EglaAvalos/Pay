@@ -31,7 +31,7 @@ public class Main {
         ingredients.add("1 Barra Mantequilla derretida (90 g)");
         ingredients.add("3 Sobres Grenetina (7 g c/u)hidratada en 1/4 de taza de agua (60 ml) y disuelta");
         ingredients.add("1 Lata Leche Evaporada CARNATION CLAVEL en Balance Reducida en Grasa");
-        ingredients.add("1 Lata LA LECHERA® en Balance Sin Grasa");
+        ingredients.add("1 Lata LA LECHERA en Balance Sin Grasa");
         ingredients.add("2 Paquetes Queso crema (190 g c/u)");
 
         Direction d1 = new Direction();
@@ -96,6 +96,7 @@ public class Main {
         recipe1.setUser(user);
         recipe1.setIngredients(ingredients);
 
+        System.out.println("-------------------------------------------");
         System.out.println("USUARIO " + recipe1.getUser().getName());
         System.out.println("RECETA DE " + recipe1.getName().toUpperCase());
         System.out.println("DESCRIPCIÓN: " + "\n" + recipe1.getDescription());
@@ -128,6 +129,7 @@ public class Main {
                 + "\n" + v6.getName() + " " + v6.getValue()
                 + "\n" + v7.getName() + " " + v7.getValue()
                 + "\n" + v8.getName() + " " + v8.getValue());
+        System.out.println("-------------------------------------------");
         
     }
 }
